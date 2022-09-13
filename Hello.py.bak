@@ -1,0 +1,9 @@
+import pandas as pd
+
+dict = {"a": "123", "b" : "456"}
+
+df = pd.DataFrame(dict)
+
+print("below dataframe")
+
+print(df)
